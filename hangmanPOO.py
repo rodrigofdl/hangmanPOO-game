@@ -99,3 +99,9 @@ class Hangman:
         print("Palavra: " + " ".join(self.palavra_descoberta))
         print("Letras tentadas: " + ", ".join(self.letras_tentadas))
         print("Tentativas restantes " + str(6 - self.tentativas_erradas))
+
+# Metódo para solicitar uma letra
+    def solicitar_letra(self):
+        letra = input("Digite uma letra: ")
+        return letra
+
