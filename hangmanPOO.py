@@ -85,7 +85,7 @@ class Hangman:
                 print("Você já tentou esta letra. Tente outra")
                 continue
 
-            self.letras_tentadas.append(letra)
+            self.adicionar_letra_tentada(letra)
 
             if letra in self.palavra_secreta:
                 self.palavra_descoberta.append(letra)
@@ -94,14 +94,17 @@ class Hangman:
 
         exibir_resultado()
 
-# Metódo para exibir o exibir o estado do jogo
+# Método para exibir o exibir o estado do jogo
     def exibir_estado(self):
         print("Palavra: " + " ".join(self.palavra_descoberta))
         print("Letras tentadas: " + ", ".join(self.letras_tentadas))
         print("Tentativas restantes " + str(6 - self.tentativas_erradas))
 
-# Metódo para solicitar uma letra
+# Método para solicitar uma letra
     def solicitar_letra(self):
         letra = input("Digite uma letra: ")
         return letra
 
+# Método para adicionar letra tentada
+    def adicionar_letra_tentada(self, letra):
+        self.letras_tentadas.append(letra)

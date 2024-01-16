@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9879219-f1d5-45fe-bdee-2ad8ea8d2547" name="Changes" comment="Third commit - I added the constructor method and the play method" />
+    <list default="true" id="b9879219-f1d5-45fe-bdee-2ad8ea8d2547" name="Changes" comment="Forth commit - I added the method to resquest a letter" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,13 +77,31 @@
       <option name="project" value="LOCAL" />
       <updated>1705444289010</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Third commit - I added the method of displaying the game">
+      <option name="closed" value="true" />
+      <created>1705444363167</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705444363167</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Forth commit - I added the method to resquest a letter">
+      <option name="closed" value="true" />
+      <created>1705444589010</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705444589010</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
     <MESSAGE value="Second commit - i added the construtor method and the play method" />
     <MESSAGE value="Third commit - I added the constructor method and the play method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Third commit - I added the constructor method and the play method" />
+    <MESSAGE value="Third commit - I added the method of displaying the game" />
+    <MESSAGE value="Forth commit - I added the method to resquest a letter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Forth commit - I added the method to resquest a letter" />
   </component>
 </project>
