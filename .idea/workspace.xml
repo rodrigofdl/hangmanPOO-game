@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9879219-f1d5-45fe-bdee-2ad8ea8d2547" name="Changes" comment="Second commit - i added the construtor method and the play method">
-      <change beforePath="$PROJECT_DIR$/hangmanPOO.py" beforeDir="false" afterPath="$PROJECT_DIR$/hangmanPOO.py" afterDir="false" />
-    </list>
+    <list default="true" id="b9879219-f1d5-45fe-bdee-2ad8ea8d2547" name="Changes" comment="Third commit - I added the constructor method and the play method" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,12 +69,21 @@
       <option name="project" value="LOCAL" />
       <updated>1705443955555</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Third commit - I added the constructor method and the play method">
+      <option name="closed" value="true" />
+      <created>1705444289010</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705444289010</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
     <MESSAGE value="Second commit - i added the construtor method and the play method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second commit - i added the construtor method and the play method" />
+    <MESSAGE value="Third commit - I added the constructor method and the play method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Third commit - I added the constructor method and the play method" />
   </component>
 </project>
