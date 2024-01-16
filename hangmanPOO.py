@@ -1,5 +1,4 @@
 # Hangman Game (Jogo da Forca)
-# Programação Orientada a Objetos
 
 # Import
 import random
@@ -70,13 +69,27 @@ O   |
 class Hangman:
 
 # Método Construtor
+    def __init__(self, palavra_secreta):
+        self.palavra_secreta = palavra_secreta
+        self.palavra_descoberta = ['_' for _ in palavra_secreta]
+        self.tentativas_erradas = 0
+        self.letras_tentadas = []
 
-# Método para adivinhar a letra
+# Método para começar o jogo
+    def jogar(self):
+        while self.tentativas_erradas < 6 and '_' in self.palavra_descoberta:
+            exibir_estado()
+            letra = solicitar_letra()
 
-# Método para verificar se o jogo terminou
+            if letra in self.letras_tentadas:
+                print("Você já tentou esta letra. Tente outra")
+                continue
 
-# Método para verificar se o jogador venceu
+            self.letras_tentadas.append(letra)
 
-# Método para não mostrar a letra no board
+            if letra in self.palavra_secreta:
+                self.palavra_descoberta.append(letra)
+            else:
+                self.tentativas_erradas += 1
 
-# Método para checar o status do game e imprimir o board na tela
+        exibir_resultado()
