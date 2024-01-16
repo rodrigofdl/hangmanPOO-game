@@ -93,3 +93,9 @@ class Hangman:
                 self.tentativas_erradas += 1
 
         exibir_resultado()
+
+# Metódo para exibir o exibir o estado do jogo
+    def exibir_estado(self):
+        print("Palavra: " + " ".join(self.palavra_descoberta))
+        print("Letras tentadas: " + ", ".join(self.letras_tentadas))
+        print("Tentativas restantes " + str(6 - self.tentativas_erradas))
