@@ -88,7 +88,7 @@ class Hangman:
             self.adicionar_letra_tentada(letra)
 
             if letra in self.palavra_secreta:
-                self.palavra_descoberta.append(letra)
+                self.atualizar_palavra_descoberta(letra)
             else:
                 self.tentativas_erradas += 1
 
@@ -108,3 +108,9 @@ class Hangman:
 # Método para adicionar letra tentada
     def adicionar_letra_tentada(self, letra):
         self.letras_tentadas.append(letra)
+
+# Método para atualizar a palavra descoberta
+    def atualizar_palavra_descoberta(self, letra):
+        for i, caractere in enumerate(self.palavra_secreta):
+            if caractere == letra:
+                self.palavra_descoberta[i] = letra

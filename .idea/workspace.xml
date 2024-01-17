@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9879219-f1d5-45fe-bdee-2ad8ea8d2547" name="Changes" comment="Forth commit - I added the method to resquest a letter" />
+    <list default="true" id="b9879219-f1d5-45fe-bdee-2ad8ea8d2547" name="Changes" comment="Fifth commit - I added the method to add the attempted letter">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangmanPOO.py" beforeDir="false" afterPath="$PROJECT_DIR$/hangmanPOO.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +96,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705444589010</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fifth commit - I added the method to add the attempted letter">
+      <option name="closed" value="true" />
+      <created>1705444831161</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705444831161</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -102,6 +113,7 @@
     <MESSAGE value="Third commit - I added the constructor method and the play method" />
     <MESSAGE value="Third commit - I added the method of displaying the game" />
     <MESSAGE value="Forth commit - I added the method to resquest a letter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Forth commit - I added the method to resquest a letter" />
+    <MESSAGE value="Fifth commit - I added the method to add the attempted letter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fifth commit - I added the method to add the attempted letter" />
   </component>
 </project>
