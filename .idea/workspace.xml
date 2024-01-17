@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9879219-f1d5-45fe-bdee-2ad8ea8d2547" name="Changes" comment="Fifth commit - I added the method to add the attempted letter">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b9879219-f1d5-45fe-bdee-2ad8ea8d2547" name="Changes" comment="Sixth commit - I added the method to update word discovery">
       <change beforePath="$PROJECT_DIR$/hangmanPOO.py" beforeDir="false" afterPath="$PROJECT_DIR$/hangmanPOO.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +103,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705444831161</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Sixth commit - I added the method to update word discovery">
+      <option name="closed" value="true" />
+      <created>1705454303386</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1705454303386</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -114,6 +121,7 @@
     <MESSAGE value="Third commit - I added the method of displaying the game" />
     <MESSAGE value="Forth commit - I added the method to resquest a letter" />
     <MESSAGE value="Fifth commit - I added the method to add the attempted letter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fifth commit - I added the method to add the attempted letter" />
+    <MESSAGE value="Sixth commit - I added the method to update word discovery" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sixth commit - I added the method to update word discovery" />
   </component>
 </project>

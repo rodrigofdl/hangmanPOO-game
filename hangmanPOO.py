@@ -114,3 +114,14 @@ class Hangman:
         for i, caractere in enumerate(self.palavra_secreta):
             if caractere == letra:
                 self.palavra_descoberta[i] = letra
+
+# Método para incrementar tentativas erradas
+    def incrementar_tentativas_erradas(self):
+        self.tentativas_erradas += 1
+
+# Método para exibir o resultado
+    def exibir_resultado(self):
+        if '_' not in self.palavra_descoberta:
+            print("Parábens! Você descobriu a palavra: " + "".join(self.palavra_descoberta))
+        else:
+            print("Você perdeu! A palavra era: " + self.palavra_secreta)
