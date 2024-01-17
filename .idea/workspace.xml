@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9879219-f1d5-45fe-bdee-2ad8ea8d2547" name="Changes" comment="Seventh commit - I added the method to increase wrong attempts and the method to display results">
+    <list default="true" id="b9879219-f1d5-45fe-bdee-2ad8ea8d2547" name="Changes" comment="Eight commit - I added the method to choice random word and display the puppet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hangmanPOO.py" beforeDir="false" afterPath="$PROJECT_DIR$/hangmanPOO.py" afterDir="false" />
     </list>
@@ -120,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705454856559</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Eight commit - I added the method to choice random word and display the puppet">
+      <option name="closed" value="true" />
+      <created>1705456457439</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1705456457439</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -132,6 +140,7 @@
     <MESSAGE value="Fifth commit - I added the method to add the attempted letter" />
     <MESSAGE value="Sixth commit - I added the method to update word discovery" />
     <MESSAGE value="Seventh commit - I added the method to increase wrong attempts and the method to display results" />
-    <option name="LAST_COMMIT_MESSAGE" value="Seventh commit - I added the method to increase wrong attempts and the method to display results" />
+    <MESSAGE value="Eight commit - I added the method to choice random word and display the puppet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Eight commit - I added the method to choice random word and display the puppet" />
   </component>
 </project>
